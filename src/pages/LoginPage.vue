@@ -56,7 +56,7 @@
     <main class='w-screen h-fit flex xl:flex-row flex-col-reverse justify-between'>
       <div class="relative top-[10vh] px-16 xl:ps-40 xl:py-10">
         <div>
-          <img src="icons/creatimoon-logo.svg" alt="creatimoon logo">
+          <img src="/icons/creatimoon-logo.svg" alt="creatimoon logo">
         </div>
         <h1 class='font-semibold text-[45px] my-8'>Iniciar sesión</h1>
         <p class='mb-8'>Iniciá sesión para acceder. Si no tenés cuenta todavía, <router-link class="text-primary underline" to="/register">registrate acá</router-link>, es gratis. 😊</p>
