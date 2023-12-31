@@ -42,7 +42,7 @@
 
   <footer v-if="showElemnet" class='relative m-auto mt-10 flex justify-between items-center bg-primary w-[98vw] py-6 px-12 z-20'>
     <div>
-      <img src="icons/creatimoon-dark-logo.svg" alt="creatimoon logo">
+      <img src="/icons/creatimoon-dark-logo.svg" alt="creatimoon logo">
     </div>
     <div>
       <ul class='flex gap-4 text-paragraph'>
