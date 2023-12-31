@@ -1,0 +1,35 @@
+<template>
+  <div class="bars"></div>
+</template>
+
+<style>
+.bars {
+  width: 50.4px;
+  height: 44.8px;
+  --c: linear-gradient(#FDFF85 calc(50% - 11.2px), #0000 0 calc(50% + 11.2px), #FDFF85 0);
+  background: var(--c) 0% 100%,
+    var(--c) 50% 100%,
+    var(--c) 100% 100%;
+  background-size: 10.1px calc(200% + 22.4px);
+  background-repeat: no-repeat;
+  animation: bars-th2joa 1s infinite linear;
+}
+
+@keyframes bars-th2joa {
+  33% {
+    background-position: 0% 50%, 50% 100%, 100% 100%;
+  }
+
+  50% {
+    background-position: 0% 0%, 50% 50%, 100% 100%;
+  }
+
+  66% {
+    background-position: 0% 0%, 50% 0%, 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 0%, 50% 0%, 100% 0%;
+  }
+}
+</style>
